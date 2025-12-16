@@ -1,0 +1,175 @@
+# ===================================
+# Frontend (Node.js / React / Vite)
+# ===================================
+
+# Dependencies
+Frontend/node_modules/
+Frontend/package-lock.json
+
+# Build outputs
+Frontend/dist/
+Frontend/build/
+Frontend/.vite/
+
+# Environment variables
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# Logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+Frontend/lerna-debug.log*
+
+# TypeScript cache
+Frontend/*.tsbuildinfo
+Frontend/.tsbuildinfo
+
+# Editor directories and files
+Frontend/.vscode/*
+!Frontend/.vscode/extensions.json
+Frontend/.idea
+Frontend/.DS_Store
+Frontend/*.suo
+Frontend/*.ntvs*
+Frontend/*.njsproj
+Frontend/*.sln
+Frontend/*.sw?
+
+# ===================================
+# Backend (.NET)
+# ===================================
+
+# Build results
+Backend/bin/
+Backend/obj/
+Backend/out/
+
+# User-specific files
+Backend/*.rsuser
+Backend/*.suo
+Backend/*.user
+Backend/*.userosscache
+Backend/*.sln.docstates
+
+# Visual Studio cache/options
+Backend/.vs/
+Backend/.vscode/
+
+# ReSharper
+Backend/_ReSharper*/
+Backend/*.[Rr]e[Ss]harper
+Backend/*.DotSettings.user
+
+# Build Results
+Backend/[Dd]ebug/
+Backend/[Dd]ebugPublic/
+Backend/[Rr]elease/
+Backend/[Rr]eleases/
+Backend/x64/
+Backend/x86/
+Backend/[Ww][Ii][Nn]32/
+Backend/[Aa][Rr][Mm]/
+Backend/[Aa][Rr][Mm]64/
+Backend/bld/
+Backend/[Bb]in/
+Backend/[Oo]bj/
+Backend/[Ll]og/
+Backend/[Ll]ogs/
+
+# ASP.NET Scaffolding
+Backend/ScaffoldingReadMe.txt
+
+# NuGet Packages
+Backend/*.nupkg
+Backend/*.snupkg
+Backend/**/packages/*
+
+# appsettings with secrets (keep template only)
+Backend/appsettings.Development.json
+Backend/appsettings.Production.json
+# Uncomment the line below if you want to ignore the main appsettings.json
+# Backend/appsettings.json
+
+# Database files
+Backend/Data/*.json
+Backend/Data/*.db
+Backend/Data/*.sqlite
+
+# ===================================
+# General OS and IDE files
+# ===================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# ===================================
+# Secrets and Configuration
+# ===================================
+
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets.json
+appsecrets.json
+
+# ===================================
+# Logs and Temporary Files
+# ===================================
+
+*.log
+*.tmp
+*.temp
+logs/
+*.log.*
